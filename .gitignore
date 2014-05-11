@@ -1,0 +1,9 @@
+namespace BaseTest {
+    [RestExtension("myAlias")]
+    public class TestClass {
+        [RestExtensionMethod()]
+        public static string Hello() {
+            return "Hello World";
+        }
+    }
+} 
